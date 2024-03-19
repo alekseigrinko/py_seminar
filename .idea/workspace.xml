@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 2 семинару по Python">
-      <change afterPath="$PROJECT_DIR$/s3/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s3/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s3/4.py" afterDir="false" />
+    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил gitignore">
+      <change afterPath="$PROJECT_DIR$/s4/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s4/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s4/3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
     &quot;Python.2.executor&quot;: &quot;Run&quot;,
     &quot;Python.3.executor&quot;: &quot;Run&quot;,
     &quot;Python.4.executor&quot;: &quot;Run&quot;,
@@ -84,12 +85,30 @@
       <option name="project" value="LOCAL" />
       <updated>1710049834562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: подготовил задания к 3 семинару по Python">
+      <option name="closed" value="true" />
+      <created>1710691707152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691707152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: подготовил gitignore">
+      <option name="closed" value="true" />
+      <created>1710691764048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691764048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: подготовил задания к 1 семинару по Python" />
     <MESSAGE value="feat: подготовил задания к 2 семинару по Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 2 семинару по Python" />
+    <MESSAGE value="feat: подготовил задания к 3 семинару по Python" />
+    <MESSAGE value="feat: подготовил gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил gitignore" />
   </component>
 </project>
