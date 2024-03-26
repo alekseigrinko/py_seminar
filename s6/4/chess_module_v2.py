@@ -18,6 +18,34 @@ COUNT_SOLUTION = 4
 def manual_start():
     """
     Запускает шахматный модуль для инициализации шахматных фигур в количестве, обозначенном переменной
+    MAX_QUEEN
+    :return: True, если полученные фигуры соответствуют условию задачи - не бьют друг друга
+    """
+    count = 0
+    input_list = []
+    while count < MAX_QUEEN:
+        input_list.append(_input_queen(_manual_input()))
+        count += 1
+    print('Добавлены фигуры:')
+    print(f'{input_list}')
+
+    for item in input_list:
+        if not _check_queen(item[0], item[1], _queen_list):
+            print(f'Фигура на клетке: {item[0]}, {item[1]} подпадает под удар другой.')
+            print('Нарушено условие задачи')
+            _print_board(input_list)
+            return False
+        else:
+            _queen_list.append(item)
+
+    print('Расстановка фигур соответствует условию задачи!')
+    _print_board(_queen_list)
+    return True
+
+
+def random_start():
+    """
+    Запускает шахматный модуль для инициализации шахматных фигур в количестве, обозначенном переменной
     MAX_QUEEN, для вывода использует случайный генератор чисел из списка LIST_ROW и LIST_COL
     :return: True, после вывода успешных решений в количестве константы COUNT_SOLUTION
     """
@@ -118,4 +146,4 @@ def _print_board(check_list: list):
 
 
 if __name__ == '__main__':
-    manual_start()
+    random_start()

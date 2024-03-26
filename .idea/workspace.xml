@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 5 семинару по Python">
-      <change afterPath="$PROJECT_DIR$/s6/2/data_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s6/2/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s6/3/chess_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s6/4/chess_module_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 6 семинару по Python" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711168726376</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: подготовил задания к 6 семинару по Python">
+      <option name="closed" value="true" />
+      <created>1711430536234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711430536234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +134,7 @@
     <MESSAGE value="feat: подготовил gitignore" />
     <MESSAGE value="feat: подготовил задания к 4 семинару по Python" />
     <MESSAGE value="feat: подготовил задания к 5 семинару по Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 5 семинару по Python" />
+    <MESSAGE value="feat: подготовил задания к 6 семинару по Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 6 семинару по Python" />
   </component>
 </project>
