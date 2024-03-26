@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 4 семинару по Python">
-      <change afterPath="$PROJECT_DIR$/s5/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s5/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s5/4.py" afterDir="false" />
+    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 5 семинару по Python">
+      <change afterPath="$PROJECT_DIR$/s6/2/data_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s6/2/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s6/3/chess_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s6/4/chess_module_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,20 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GB/projects_py/py_seminar&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.3.executor": "Run",
+    "Python.4.executor": "Run",
+    "Python.chess_module.executor": "Run",
+    "Python.chess_module_v2.executor": "Run",
+    "Python.data_check.executor": "Run",
+    "Python.task.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/GB/projects_py/py_seminar"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GB\projects_py\py_seminar" />
@@ -56,7 +61,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -109,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710835722351</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: подготовил задания к 5 семинару по Python">
+      <option name="closed" value="true" />
+      <created>1711168726376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711168726376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +131,7 @@
     <MESSAGE value="feat: подготовил задания к 3 семинару по Python" />
     <MESSAGE value="feat: подготовил gitignore" />
     <MESSAGE value="feat: подготовил задания к 4 семинару по Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 4 семинару по Python" />
+    <MESSAGE value="feat: подготовил задания к 5 семинару по Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 5 семинару по Python" />
   </component>
 </project>
