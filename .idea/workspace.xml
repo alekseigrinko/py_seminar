@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задания к 6 семинару по Python" />
+    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: внес дополнения к заданию 4 семинара 6 по Python">
+      <change afterPath="$PROJECT_DIR$/s7/api_files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/hw_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s7/api_files/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +49,15 @@
     "Python.chess_module.executor": "Run",
     "Python.chess_module_v2.executor": "Run",
     "Python.data_check.executor": "Run",
+    "Python.hw_task.executor": "Run",
     "Python.task.executor": "Run",
+    "Python.task1.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
+    "Python.task7.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -50,6 +69,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GB\projects_py\py_seminar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GB\projects_py\py_seminar\s7\api_files" />
+      <recent name="D:\GB\projects_py\py_seminar\s7\3" />
+      <recent name="D:\GB\projects_py\py_seminar\s7" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -124,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711430536234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: внес дополнения к заданию 4 семинара 6 по Python">
+      <option name="closed" value="true" />
+      <created>1711434585281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711434585281</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +167,7 @@
     <MESSAGE value="feat: подготовил задания к 4 семинару по Python" />
     <MESSAGE value="feat: подготовил задания к 5 семинару по Python" />
     <MESSAGE value="feat: подготовил задания к 6 семинару по Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задания к 6 семинару по Python" />
+    <MESSAGE value="feat: внес дополнения к заданию 4 семинара 6 по Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: внес дополнения к заданию 4 семинара 6 по Python" />
   </component>
 </project>
