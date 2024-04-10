@@ -35,8 +35,8 @@ def travel_to_directory(directory: Path) -> list:
     with open(result_file.with_suffix('.pickle'), 'wb') as pickle_write:
         pickle.dump(tree_list, pickle_write)
     with open(result_file.with_suffix('.csv'), 'w', encoding='utf-8') as csv_write:
-        writer = csv.writer(csv_write)
-        writer.writerows(tree_list)
+        writer = csv.writer(csv_write, delimiter='\n')
+        writer.writerow(tree_list)
 
     return tree_list
 
