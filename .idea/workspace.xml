@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: подготовил задание семинару 7 по Python. Пакет создан путем добавления файла __init__.py">
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/___init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/hw_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s8/api_serialization/task7.py" afterDir="false" />
+    <list default="true" id="755db431-2e70-4693-a3f7-f2405b524dcf" name="Changes" comment="feat: внес небольшие правки по формированию csv файла">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712500718311</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: внес небольшие правки по формированию csv файла">
+      <option name="closed" value="true" />
+      <created>1712725565464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712725565464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +178,7 @@
     <MESSAGE value="feat: подготовил задания к 6 семинару по Python" />
     <MESSAGE value="feat: внес дополнения к заданию 4 семинара 6 по Python" />
     <MESSAGE value="feat: подготовил задание семинару 7 по Python. Пакет создан путем добавления файла __init__.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: подготовил задание семинару 7 по Python. Пакет создан путем добавления файла __init__.py" />
+    <MESSAGE value="feat: внес небольшие правки по формированию csv файла" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: внес небольшие правки по формированию csv файла" />
   </component>
 </project>

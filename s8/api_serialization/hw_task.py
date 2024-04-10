@@ -19,14 +19,7 @@ def travel_to_directory(directory: Path) -> list:
     :param directory: директория, по которой будет собираться информация
     :return: список файлов и директорий
     """
-    tree_list = []
-    for file in directory.iterdir():
-        if file.is_dir():
-            tree_list.append(f'{file} - директория, размер директории - {_size_of_directory(file)} байт, '
-                             f'родительская директория - {file.parent}')
-            tree_list.extend(travel_to_directory(file))
-        elif file.is_file():
-            tree_list.append(f'{file} - файл, размер файла - {file.stat().st_size} байт')
+    tree_list = _add_tree_list(directory)
 
     result_file = Path(Path.cwd() / Path(f'{Path.cwd().stem}_tree.json'))
 
@@ -37,6 +30,24 @@ def travel_to_directory(directory: Path) -> list:
     with open(result_file.with_suffix('.csv'), 'w', encoding='utf-8') as csv_write:
         writer = csv.writer(csv_write, delimiter='\n')
         writer.writerow(tree_list)
+
+    return tree_list
+
+
+def _add_tree_list(_dir: Path) -> list:
+    """
+    Функция возвращает информацию по дереву каталога
+    :param _dir: директория, по которой будет собираться информация
+    :return: список файлов и директорий
+    """
+    tree_list = []
+    for file in _dir.iterdir():
+        if file.is_dir():
+            tree_list.append(f'{file} - директория, размер директории - {_size_of_directory(file)} байт, '
+                             f'родительская директория - {file.parent}')
+            tree_list.extend(_add_tree_list(file))
+        elif file.is_file():
+            tree_list.append(f'{file} - файл, размер файла - {file.stat().st_size} байт')
 
     return tree_list
 
